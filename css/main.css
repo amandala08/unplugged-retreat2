@@ -91,6 +91,7 @@ textarea {
 
 html {
   font-size: 16px;
+  color: #e2e3ed;
 }
 
 body {
@@ -112,6 +113,8 @@ a {
 h2 {
   font-family: 'Poppins', sans-serif;
   font-size: 1.875em;
+  font-weight: 300;
+  line-height: 1.2;
 }
 
 h3,
@@ -119,12 +122,12 @@ h4 {
   font-family: 'Poppins', sans-serif;
   margin: 20px 0;
   font-size: 1.125em;
+  font-weight: 200;
 }
 
 p {
   font-size: .875em;
   line-height: 1.285;
-
 }
 
 img {
@@ -152,6 +155,7 @@ footer {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: #202322;
 }
 
 /* HEADER STYLES */
@@ -172,6 +176,7 @@ header .content-wrapper {
   width: 100%;
   height: 1px;
   margin: 10px 0 20px 0;
+  color: #5f5f5f;
 }
 
 header nav {
@@ -235,6 +240,11 @@ footer .copyright {
   flex-flow: row wrap;
 }
 
+.hero-area .content-wrapper {
+  background: url('img/hero-image.jpg') center no-repeat;
+  background-size: cover;
+}
+
 .hero-area h1 {
   margin: 45px 0;
 }
@@ -246,6 +256,7 @@ aside {
   justify-content: center;
   flex-flow: row wrap;
   margin: 24px 0;
+  background-color: #527158;
 }
 
 aside .form {
@@ -314,6 +325,7 @@ input[type=button] {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  background-color: #2a423a;
 }
 
 .reviews .content-wrapper {

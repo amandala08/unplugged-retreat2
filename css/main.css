@@ -334,6 +334,11 @@ input[type=button] {
   flex-flow: row wrap;
 }
 
+.features i {
+  font-size: 3.75em;
+  padding-bottom: 40px;
+}
+
 .features article {
   width: 58%;
   margin: 23px 0;
@@ -616,6 +621,10 @@ input[type=button] {
       align-items: center;
       flex-flow: row wrap;
       flex-basis: 50%;
+    }
+
+    .features article .icon {
+      width: 100%;
     }
 
     .features .features-item-description {

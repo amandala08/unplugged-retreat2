@@ -203,6 +203,7 @@ header nav ul {
   justify-content: space-around;
   width: 100%;
   list-style-type: none;
+  padding: 0;
 }
 
 header nav ul li {
@@ -723,7 +724,7 @@ input[type=button] {
 
     .mission h2,
     .contact-section .content-wrapper h2 {
-      font-size: 2.75em;
+      font-size: 2.25em;
     }
 
     .map figure {
@@ -742,7 +743,7 @@ input[type=button] {
     }
 
     .contact-content h4 {
-      font-size: 1.875em;
+      font-size: 1.5em;
     }
 
     footer .social-icons i {
